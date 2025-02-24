@@ -7,7 +7,7 @@ class HomeController extends Controller{
         $this->view('home', $data);
     }
     public function new(){
-        echo "Hola desde New de HomeController";
+        echo "Hola desde New de AdminController";
     }
 }
 ?>
