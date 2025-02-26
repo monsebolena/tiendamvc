@@ -26,7 +26,7 @@
                 
         <!-- Formulario para crear o registrar un producto -->
         <h2 class="mt-4">Registrar Producto</h2>
-        <form action="/ruta-a-tu-controlador" method="POST" enctype="multipart/form-data">
+        <form action="" method="POST" enctype="multipart/form-data">
             <div class="mb-3">
                 <label for="name" class="form-label">Nombre</label>
                 <input type="text" class="form-control" id="name" name="name" required>
@@ -35,11 +35,6 @@
             <div class="mb-3">
                 <label for="description" class="form-label">Descripción</label>
                 <textarea class="form-control" id="description" name="description" rows="3" required></textarea>
-            </div>
-
-            <div class="mb-3">
-                <label for="img" class="form-label">Imagen</label>
-                <input type="file" class="form-control" id="img" name="img" accept="image/*" required>
             </div>
 
             <div class="mb-3">
