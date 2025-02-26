@@ -11,6 +11,7 @@
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="<?= base_url() ?>assets/js/product.js" defer></script>
 </head>
 
 <body>
@@ -54,18 +55,13 @@
             <div class="mb-3">
                 <label for="category" class="form-label">Categoría</label>
                 <select class="form-select" id="category" name="category" required>
-                    <option value="">Selecciona una categoría</option>
-                    <!-- Aquí puedes agregar las categorías disponibles -->
-                    <option value="electronic">Electrónica</option>
-                    <option value="clothing">Ropa</option>
-                    <option value="home">Hogar</option>
-                    <option value="books">Libros</option>
                 </select>
             </div>
 
             <div class="mb-3">
                 <label for="provider" class="form-label">Proveedor</label>
-                <input type="text" class="form-control" id="provider" name="provider" required>
+                <select class="form-select" id="provider" name="provider" required>
+                </select>
             </div>
 
             <button type="submit" class="btn btn-primary">Registrar Producto</button>
